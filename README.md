@@ -1,19 +1,25 @@
-# outloud1
+# Astro Smart Assistant app
 
-A new Flutter project.
+Smart Assistant app is made with Flutter.
 
-## Getting Started
+## Built With
 
-This project is a starting point for a Flutter application.
+[![Flutter][Flutter]][Flutter-url]
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### How to Use
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# AnissaTouibi-SmartAssistant" 
-"# AnissaTouibi-SmartAssistant" 
-"# AnissaTouibi-SmartAssistant" 
+Note that This project uses multiple `inject` libraries that work with code generation, execute the following command to generate the necessary files:
+
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+
+Alternatively for continious generation : flutter packages pub run build_runner watch
+
+For i18n translations use : flutter pub run slang
+
+
+```
+
+[Flutter]: https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
+[Flutter-url]: https://flutter.dev/

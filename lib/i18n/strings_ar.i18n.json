@@ -1,0 +1,140 @@
+{
+    "common": {
+        "address": "العنوان",
+        "and": "و",
+        "create": "إنشاء",
+        "country": "البلد",
+        "dismiss": "تجاهل",
+        "language": "اللغة",
+        "loading": "جار التحميل...",
+        "next": "التالي",
+        "search": "بحث",
+        "submit": "إرسال",
+        "cancel": "إلغاء",
+        "done": "تم",
+        "back": "رجوع",
+        "clear": "مسح",
+        "send": "إرسال",
+        "save": "حفظ",
+        "close": "غلق",
+        "tryAgain": "محاولة",
+        "update": "تحديث",
+        "restart": "أعد التشغيل",
+        "powered_by": "بواسطة",
+        "version": "إصدار",
+        "confirm": "تأكيد",
+        "showMore": "عرض المزيد",
+        "showLess": "أظهر أقل",
+        "days": " أيام"
+    },
+    "nav_bar_items": {
+        "search": "بحث",
+        "notifications": "إشعارات",
+        "wishlist": "رغبات",
+        "auctions": "مزادات"
+    },
+    "errors": {
+        "text": "خطأ",
+        "actions": {
+            "text": "فشلت العملية",
+            "failed": "{action} فشلت",
+            "failed_extra": "$action فشلت, $extra"
+        },
+        "fields": {
+            "input": "يرجى التأكد من صحة $field",
+            "select": "آختر $field ﺻﺎﻟﺢ",
+            "enter": "اﻟﺮﺟﺎء ﺇﺩﺧﺎﻝ $field",
+            "minChar": "اﻟﺤﺪ اﻷﺩﻧﻰ $field ﻫﻮ $min.",
+            "maxChar": "اﻟﺤﺪ اﻷﻗﺼﻰ $field ﻫﻮ $max.",
+            "password": "يجب أن يحتوي $field على $min حرف على الأقل، حرف كبير واحد، وقيمة رقمية واحدة",
+            "confirm": "$field غير متطابقة ",
+            "required": "ﻫﺬﻩ اﻟﺨﺎﻧﺔ ﻣﻄﻠﻮﺑﻪ",
+            "requiredField": "ﻳﺮﺟﻰ اﺩﺧﺎﻝ $field",
+            "exact_char": "يجب أن يحتوي على $num أرقام",
+            "differentPhone": "يجب أن يكون مختلفًا عن الرقم القديم للهاتف",
+            "validInteger": "يجب أن يكون رقمًا صالحًا",
+            "customPassword": {
+                "lowerCase": "يجب أن يحتوي على حرف صغير",
+                "upperCase": "يجب أن يحتوي على حرف كبير",
+                "number": "يجب أن يحتوي على رقم"
+            }
+        },
+        "failures": {
+            "networkFailure": "فشل الاتصال بالشبكة.",
+            "undocumentedError": "للأسف، واجهنا خطأ غير موثق.",
+            "platformError": "فشل المنصة",
+            "notFound": "لا يمكن العثور على نقطة الطلب!",
+            "formatException": "تعذر معالجة البيانات.",
+            "unableToProcess": "تعذر المعالجة.",
+            "requestTimeout": "انتهت صلاحية الطلب. يرجى المحاولة مرة أخرى لاحقًا.",
+            "connectionError": "نأسف، لكن حدثت مشكلة في الاتصال بالخوادم الخاصة بنا. يُرجى التحقق من اتصال الإنترنت والمحاولة مرة أخرى.",
+            "unexpectedError": "حدث خطأ غير متوقع. يُرجى المحاولة مرة أخرى لاحقًا.",
+            "otherFailure": "حدث خطأ ما",
+            "firebaseStorageFailure": "فشل Firebase Storage",
+            "deepLinkFailure": "فشل الرابط العميق",
+            "accessTokenFailure": "جلسة المستخدم غير صالحة",
+            "cacheReadFailure": "فشل القراءة من التخزين المؤقت.",
+            "cacheWriteFailure": "فشل حفظ البيانات في التخزين المؤقت.",
+            "no_internet": "لا يوجد اتصال بالإنترنت ...",
+            "update_app": "قم بتحديث تطبيقك",
+            "patch_app": "أعد تشغيل التطبيق لتثبيت أحدث تصحيح",
+            "maintenance": "جار صيانة التطبيق",
+            "documented": {
+                "pendingProfile": "هذا الملف الشخصي لا يزال قيد الموافقة !",
+                "incorrectSignInCredentials": "الحساب غير موجود. يُرجى التحقق من معلومات تسجيل الدخول أو إنشاء حساب جديد.",
+                "pwLongerThan1Char": "يجب أن تكون كلمة المرور مكونة من حرفين على الأقل.",
+                "weakPw": "كلمة المرور ضعيفة.",
+                "invalidEmail": "البريد الإلكتروني غير صالح.",
+                "pwAndConfirmPwDontMatch": "كلمة المرور غير مطابقة لتأكيد كلمة المرور.",
+                "phoneDoesntExist": "رقم الهاتف غير موجود.",
+                "phoneAlreadyExist": "رقم الهاتف موجود بالفعل.",
+                "newPasswordMatchesOldPassword": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور القديمة.",
+                "emailAlreadyExist": "البريد الإلكتروني موجود بالفعل.",
+                "serverError": "خطأ في الخادم.",
+                "accessUnauthorized": "تم رفض الوصول.",
+                "incorrectPassword": "كلمة المرور غير صحيحة.",
+                "invalidPhoneNumber": "رقم الهاتف غير صالح.",
+                "newBidLowerThanHighest": "المزايدة الجديدة أقل من أعلى مزايدة",
+                "cannotParticipateInAuction": "لا يمكن المشاركة في هذا المزاد",
+                "accountDoesNotExist": "هذا الحساب غير موجود",
+                "profileAlreadyAffiliated": "هذا الملف الشخصي متصل مسبقاً",
+                "cannotAddThisUser": "لا يمكن إضافة هذا المستخدم",
+                "bidIsLowerThanMinBid": "المبلغ المُقدَّم في العرض إما أنه منخفض جدًا أو تم تجاوزه بواسطة عروض أعلى.",
+                "cannotParticipateincompleteOrBanned": "لا يمكن المشاركة، إما أنك محظور أو أن الدفع غير مكتمل."
+            }
+        }
+    },
+
+    "profile": {
+        "label": "حسابي",
+        "edit": "تعديل المعلومات",
+        "switch_acc": "تبديل الحساب",
+        "participations": "مشاركة في المزاد",
+        "wins": "مزادات رابحة",
+        "create_comp": "إنشاء حساب شركة",
+        "add_account": "إضافة مستخدم",
+        "user_manage": "إدارة المستخدم",
+        "auctions_list": "قائمة المزادات",
+        "wons_auctions_list": "المزادات الرابحة",
+        "affiliateAddedSuccessMsg": "تم ربط الحساب بهذه الشركة بنجاح"
+    },
+    "messages": {
+        "deleted_account": "تم حذف حسابك بنجاح.",
+        "account_created": "تم إنشاء حسابك بنجاح.",
+        "message_sent": "تم إرسال رسالتك بنجاح.",
+        "password_updated": "تم تحديث كلمة مرورك بنجاح.",
+        "profile_updated": "تم تحديث ملفك الشخصي بنجاح.",
+        "profile_switched": "تم التبديل بنجاح إلى الملف الشخصي الآخر.",
+        "bookmark_added": "تمت إضافة المزاد بنجاح إلى قائمة المفضلة الخاصة بك."
+    },
+    "terms": {
+        "auc_terms": {
+            "title": "شروط وأحكام المزايدة",
+            "term1": "يمنح الفائز بالمزاد مدة أقصاها 7 سبعة أيام من تاريخ التسمية لاستلام البضاعة",
+            "term2": "يتحمل المشتري ابراز تصريح للبضاعة المقيدة من جهات الاختصاص وذلك خلال مدة أقصاها 14 يوم أي أسبوعين من تاريخ التسمية",
+            "term3": "يلتزم المشتري جميع ما ورد أعلاه و يفوض الهيئة العامة للجمارك بالتصرف البضاعة في حال عدم التزامه بالمدة او بالتصاريح المطلوبة أو تسديد كامل المبلغ.",
+            "term4": "لا يحق للمشتري بالمطالبة ن الهيئة العامة الجمارك للبضاعة بعد انقضاء المدة المبينة أعلاه الا بوجود كتاب من إدارة لجنة المزاد بتمديد تلك الفترة",
+            "term5": "يقع عاتق التحقق من موصفات البضاعة و الشروط الوجب يمليها على المشتري"
+        }
+    }
+}

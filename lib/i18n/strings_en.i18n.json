@@ -1,0 +1,141 @@
+{
+    "common": {
+        "address": "Address",
+        "and": "and",
+        "create": "Create",
+        "country": "Country",
+        "dismiss": "Dismiss",
+        "language": "Language",
+        "loading": "Loading...",
+        "next": "Next",
+        "search": "Search",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "done": "Done",
+        "back": "Back",
+        "clear": "Clear",
+        "send": "Send",
+        "save": "Save",
+        "close": "Close",
+        "tryAgain": "Try again",
+        "update": "Update",
+        "restart": "Restart",
+        "powered_by": "Powered by",
+        "version": "Version",
+        "confirm": "Confirm",
+        "showMore": "Show more",
+        "showLess": "Show less",
+        "days": "Days"
+    },
+    "nav_bar_items": {
+        "search": "Search",
+        "notifications": "Notifications",
+        "wishlist": "Wishlist",
+        "auctions": "Auctions"
+    },
+    "errors": {
+        "text": "Error",
+        "actions": {
+            "text": "Action failed",
+            "failed": "{action} failed",
+            "failed_extra": "$action failed, $extra"
+        },
+        "fields": {
+            "input": "Please Enter a valid $field",
+            "select": "Please Select a valid $field",
+            "enter": "Please Enter your $field",
+            "minChar": "Your $field should contain at-least $min characters.",
+            "maxChar": "Your $field should not exceed $max characters.",
+            "password": "Your $field must contain at-least, $min characters, one uppercase letter, one numeric value.",
+            "confirm": "Your $field doesn't match.",
+            "required": "This field is required.",
+            "requiredField": "$field field is required.",
+            "exact_char": "Must contain $num digits",
+            "differentPhone": "Must be different from old phone number",
+            "validInteger": "Must be a valid number",
+            "customPassword": {
+                "lowerCase": "Must contain a lowercase character",
+                "upperCase": "Must contain an uppercase character",
+                "number": "Must contain a number"
+            }
+        },
+        "failures": {
+            "networkFailure": "Network Failure",
+            "undocumentedError": "Unfortunately, we have encountered an unrecorded error.",
+            "platformError": "Platform Failure",
+            "notFound": "The request endpoint could not be found!",
+            "formatException": "Unable to process the data",
+            "unableToProcess": "Unable to process",
+            "requestTimeout": "The request has timed out. Please try again later.",
+            "connectionError": "We're sorry, but there was a problem connecting to our servers. Please check your internet connection and try again.",
+            "unexpectedError": "An unexpected error occurred. Please try again later.",
+            "otherFailure": "Something went wrong",
+            "firebaseStorageFailure": "Firebase Storage Failure",
+            "deepLinkFailure": "Deep link Failure",
+            "accessTokenFailure": "Invalid user session",
+            "cacheReadFailure": "Could not read from cache",
+            "cacheWriteFailure": "Caching data failed",
+            "no_internet": "No Internet Connection...",
+            "update_app": "Update your app",
+            "patch_app": "Install the latest patch",
+            "maintenance": "App under maintenance",
+            "documented": {
+                "pendingProfile": "This profile is still pending approval!",
+                "incorrectSignInCredentials": "Account not found. Please check login information or create a new account.",
+                "pwLongerThan1Char": "Password must be at least 2 characters",
+                "weakPw": "Weak Password",
+                "invalidEmail": "Invalid Email",
+                "pwAndConfirmPwDontMatch": "Password Doesn't Match Confirm Password",
+                "phoneDoesntExist": "Phone number doesn't exist",
+                "phoneAlreadyExist": "Phone number already exists",
+                "newPasswordMatchesOldPassword": "The new password must be different from the old password",
+                "emailAlreadyExist": "Email already exists",
+                "serverError": "Server Error",
+                "accessUnauthorized": "Access Unauthorized",
+                "incorrectPassword": "Incorrect password",
+                "invalidPhoneNumber": "Invalid phone number.",
+                "newBidLowerThanHighest": "New Bid Is Lower Than The Highest Bid",
+                "cannotParticipateInAuction": "Cannot Participate In This Smart Assistant",
+                "accountDoesNotExist": "This Account Doesn't Exist",
+                "profileAlreadyAffiliated": "Profile is already affiliated",
+                "cannotAddThisUser": "Cannot Add This User",
+                "bidIsLowerThanMinBid": "The bid amount is either too low or has been outpaced by higher offers.",
+                "cannotParticipateincompleteOrBanned": "Could not participate, you're either banned or the payment is incomplete."
+            }
+        }
+    },
+  
+    "profile": {
+        "label": "My Account",
+        "edit": "Edit Information",
+        "switch_acc": "Change Account",
+        "participations": "Participations",
+        "wins": "Winning Smart Assistant",
+        "create_comp": "Create Company Account",
+        "add_account": "Add Account",
+        "user_manage": "User Management",
+        "auctions_list": "Auctions list",
+        "wons_auctions_list": "Auctions won",
+        "affiliateAddedSuccessMsg": "The account has been successfully linked to your company"
+    },
+    "messages": {
+        "deleted_account": "Your account has been successfully deleted.",
+        "account_created": "Your account has been successfully created.",
+        "message_sent": "Your message has been successfully sent.",
+        "password_updated": "Your password has been successfully updated.",
+        "profile_updated": "Your profile has been successfully updated.",
+        "profile_switched": "Profile successfully switched.",
+        "bookmark_added": "The auction has been successfully bookmarked and added to your wishlist."
+    },
+    "terms": {
+        "auc_terms": {
+            "title": "Bidding terms and conditions",
+            "term1": "يمنح الفائز بالمزاد مدة أقصاها 7 سبعة أيام من تاريخ التسمية لاستلام البضاعة",
+            "term2": "يتحمل المشتري ابراز تصريح للبضاعة المقيدة من جهات الاختصاص وذلك خلال مدة أقصاها 14 يوم أي أسبوعين من تاريخ التسمية",
+            "term3": "يلتزم المشتري جميع ما ورد أعلاه و يفوض الهيئة العامة للجمارك بالتصرف البضاعة في حال عدم التزامه بالمدة او بالتصاريح المطلوبة أو تسديد كامل المبلغ.",
+            "term4": "لا يحق للمشتري بالمطالبة ن الهيئة العامة الجمارك للبضاعة بعد انقضاء المدة المبينة أعلاه الا بوجود كتاب من إدارة لجنة المزاد بتمديد تلك الفترة",
+            "term5": "يقع عاتق التحقق من موصفات البضاعة و الشروط الوجب يمليها على المشتري"
+        }
+    }
+
+}

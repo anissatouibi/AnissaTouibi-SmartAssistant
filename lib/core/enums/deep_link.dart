@@ -1,0 +1,4 @@
+enum DeepLinkTriggerType {
+  normalStart,
+  auctionDetails,
+}
